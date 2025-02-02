@@ -1,8 +1,11 @@
 ## Hi there 👋, I am currently a high schooler who is aspiring to make an impact in the software world
 
 Stuff I currently know:
+
 HTML, CSS, and JavaScript
+
 Java (eclipse)
+
 Python
 
 <!--
