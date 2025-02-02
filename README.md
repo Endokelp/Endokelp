@@ -1,5 +1,10 @@
 ## Hi there 👋, I am currently a high schooler who is aspiring to make an impact in the software world
 
+Stuff I currently know:
+HTML, CSS, and JavaScript
+Java (eclipse)
+Python
+
 <!--
 **Endokelp/Endokelp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
