@@ -2,14 +2,11 @@
 
 Stuff I currently know:
 
-HTML, CSS, and JavaScript
-
-Java (eclipse)
-
-Python
+HTML, CSS, and JavaScript, nextJS, svelte, java, python
+SEO, rust and react
 
 <!--
-**Endokelp/Endokelp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Endokelp/Endorkelp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
