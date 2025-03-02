@@ -2,7 +2,7 @@
 
 Stuff I currently know:
 
-HTML, CSS, and JavaScript, nextJS, svelte, java, python
+HTML, CSS, and JavaScript, nextJS, svelte, java, python, 
 SEO, rust and react
 
 <!--
