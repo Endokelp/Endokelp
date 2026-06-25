@@ -20,6 +20,20 @@ Source stays private. Happy to walk through architecture if you're hiring or col
 
 ---
 
+## JARVIS — personal AI operating system (private)
+
+My always-on desktop butler. Voice-first command center for running a real life, not just answering trivia.
+
+**What it does today:** clap or wake-word activation, natural conversation with switchable personas (Butler / Mommy), Google Calendar as a live priority list, project tracking, investment portfolio summaries with decision logging, semantic memory that recalls the right facts for what you just asked, Obsidian narrative mirror, Telegram remote status, and a 3D hologram shell in Electron.
+
+**Where it's going (and mostly built, waiting on the final brain):** proactive daily briefings without being asked, multi-step goal execution with human approval gates, sandboxed "second pair of hands" for coding and research tasks, and safe PC automation (find files, open apps, browser work) that never runs without an explicit yes. Brain/Body split: cloud models now, local NVIDIA DGX Spark inference when the hardware plugs in so the whole stack can run private on my network.
+
+Think less chatbot, more **personal OS** that knows your calendar, money, projects, and memory, and actually acts on them.
+
+Private repo · desktop beta · demo on request via [endokelp.com](https://endokelp.com)
+
+---
+
 ## Research and STEM
 
 | Project | What it is | Note |
