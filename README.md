@@ -47,7 +47,6 @@ Private repo · desktop beta · demo on request via [endokelp.com](https://endok
 
 | Project | What it is | Link |
 |---------|------------|------|
-| **HomeBuilder** | Browser 3D room planner. Walls, furniture kit, measure tool, undo. React Three Fiber + Zustand. | Demo on [endokelp.com](https://endokelp.com) |
 | **Valuation AI** | Upload a photo of a used item, get a market price estimate with comparable listings. | [Live demo](https://pricing-self-six.vercel.app/) |
 | **Indian Hypermarket** | Full-stack grocery demo. Next.js + SQLite catalog and admin. | [Repo](https://github.com/Endokelp/Actual-IndianHypermarket) |
 
