@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="endokelp.svg" alt="ENDOKELP" width="920" />
+<img src="endokelp.svg" alt="ENDOKELP" width="888" />
 
 I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
 
@@ -10,7 +10,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://github.com/Endokelp/Endoplexity">
-        <img src="logos/endoplexity.svg" width="48" height="48" alt="" /><br/>
+        <img src="logos/endoplexity.png" width="48" height="48" alt="" /><br/>
         <b>Endoplexity</b>
       </a>
       <br/>
@@ -18,7 +18,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
     </td>
     <td align="center" valign="top" width="50%">
       <a href="https://fintell.app">
-        <img src="logos/fintell.svg" width="48" height="48" alt="" /><br/>
+        <img src="logos/fintell.png" width="48" height="48" alt="" /><br/>
         <b>FinTell</b>
       </a>
       <br/>
@@ -28,7 +28,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://vaidra.org">
-        <img src="logos/vaidra.svg" width="48" height="48" alt="" /><br/>
+        <img src="logos/vaidra.png" width="48" height="48" alt="" /><br/>
         <b>Vaidra</b>
       </a>
       <br/>
@@ -46,7 +46,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://github.com/Endokelp/NextStep">
-        <img src="logos/nextstep.svg" width="48" height="48" alt="" /><br/>
+        <img src="logos/nextstep.png" width="48" height="48" alt="" /><br/>
         <b>NextStep</b>
       </a>
       <br/>
@@ -61,7 +61,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="logos/jarvis.svg" width="48" height="48" alt="" /><br/>
+      <img src="logos/jarvis.png" width="48" height="48" alt="" /><br/>
       <b>JARVIS</b>
       <br/>
       Coming soon
@@ -69,7 +69,7 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
   </tr>
 </table>
 
-Also: Pasupa, [Valuation AI](https://pricing-self-six.vercel.app/), [LaCrosse Wagon](https://caraige.vercel.app), [Interlake HI](https://www.interlakehi.org/), [ihsAquatics](https://www.ihsaquatics.org/), [Flash Forward](https://gofund.me/436b67db)
+Also: Pasupa, [Valuation AI](https://pricing-self-six.vercel.app/), [LaCrosse Wagon](https://caraige.vercel.app), [Interlake HI](https://www.interlakehi.org/), [ihsAquatics](https://www.ihsaquatics.org/)
 
 TypeScript, Next.js, Python, FastAPI, Supabase, Three.js.
 
