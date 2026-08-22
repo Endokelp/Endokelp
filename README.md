@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="endokelp.svg" alt="ENDOKELP" />
-</p>
+<div align="center">
+
+<img src="endokelp.svg" alt="ENDOKELP" width="920" />
 
 I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
 
@@ -8,38 +8,62 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Endokelp/Endoplexity">Endoplexity</a></h3>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Endokelp/Endoplexity">
+        <img src="logos/endoplexity.svg" width="48" height="48" alt="" /><br/>
+        <b>Endoplexity</b>
+      </a>
+      <br/>
       Browser agents on your own Claude or Cursor login
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://fintell.app">FinTell</a></h3>
+    <td align="center" valign="top" width="50%">
+      <a href="https://fintell.app">
+        <img src="logos/fintell.svg" width="48" height="48" alt="" /><br/>
+        <b>FinTell</b>
+      </a>
+      <br/>
       Stock research
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://vaidra.org">Vaidra</a></h3>
+    <td align="center" valign="top" width="50%">
+      <a href="https://vaidra.org">
+        <img src="logos/vaidra.svg" width="48" height="48" alt="" /><br/>
+        <b>Vaidra</b>
+      </a>
+      <br/>
       Audiobooks and courses in regional Indian languages
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://forcelogic.io">SiteBot</a></h3>
+    <td align="center" valign="top" width="50%">
+      <a href="https://forcelogic.io">
+        <img src="logos/sitebot.svg" width="48" height="48" alt="" /><br/>
+        <b>SiteBot</b>
+      </a>
+      <br/>
       A chatbot that only answers from the client's own site
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Endokelp/NextStep">NextStep</a></h3>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Endokelp/NextStep">
+        <img src="logos/nextstep.svg" width="48" height="48" alt="" /><br/>
+        <b>NextStep</b>
+      </a>
+      <br/>
       Career maps for high schoolers
     </td>
-    <td width="50%" valign="top">
-      <h3>Hypnos</h3>
+    <td align="center" valign="top" width="50%">
+      <img src="logos/hypnos.svg" width="48" height="48" alt="" /><br/>
+      <b>Hypnos</b>
+      <br/>
       Caffeine and light for night shifts. 2nd, Washington State Science Fair
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <h3>JARVIS</h3>
+    <td align="center" colspan="2">
+      <img src="logos/jarvis.svg" width="48" height="48" alt="" /><br/>
+      <b>JARVIS</b>
+      <br/>
       Coming soon
     </td>
   </tr>
@@ -50,3 +74,5 @@ Also: Pasupa, [Valuation AI](https://pricing-self-six.vercel.app/), [LaCrosse Wa
 TypeScript, Next.js, Python, FastAPI, Supabase, Three.js.
 
 Open to internships, freelance, and education / nonprofit work.
+
+</div>
