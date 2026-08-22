@@ -38,8 +38,19 @@ class SpriteTests(unittest.TestCase):
         filled = sum(cell != TRANSPARENT for row in grid for cell in row)
         self.assertGreater(filled, 40)
 
+    def test_idle_has_eye_whites(self):
+        used = {cell for row in frames_for("idle")[0] for cell in row}
+        self.assertIn("w", used)
+
 
 class GifTests(unittest.TestCase):
+    def test_tank_has_kelp(self):
+        from render import KELP_LIT, _paint_tank
+
+        tank = _paint_tank(0)
+        pixels = {tank.getpixel((x, y)) for y in range(tank.height) for x in range(tank.width)}
+        self.assertIn(KELP_LIT, pixels)
+
     def test_idle_gif_is_animated(self):
         out = Path(__file__).resolve().parent.parent / "pet.gif"
         write_gif(out, "idle", scale=4)
