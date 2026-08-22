@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" role="img" aria-label="ENDOKELP">
+  <title>ENDOKELP</title>
+  <text font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" xml:space="preserve">
+    <tspan x="20" y="28" fill="#C4B5FD">███████╗███╗   ██╗██████╗  ██████╗ ██╗  ██╗███████╗██╗     ██████╗ </tspan>
+    <tspan x="20" y="46" fill="#A78BFA">██╔════╝████╗  ██║██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝██║     ██╔══██╗</tspan>
+    <tspan x="20" y="64" fill="#8B5CF6">█████╗  ██╔██╗ ██║██║  ██║██║   ██║█████╔╝ █████╗  ██║     ██████╔╝</tspan>
+    <tspan x="20" y="82" fill="#7C3AED">██╔══╝  ██║╚██╗██║██║  ██║██║   ██║██╔═██╗ ██╔══╝  ██║     ██╔═══╝ </tspan>
+    <tspan x="20" y="100" fill="#6D28D9">███████╗██║ ╚████║██████╔╝╚██████╔╝██║  ██╗███████╗███████╗██║     </tspan>
+    <tspan x="20" y="118" fill="#4C1D95">╚══════╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     </tspan>
+  </text>
+</svg>
