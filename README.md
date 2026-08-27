@@ -60,7 +60,33 @@ I'm Anirudh. High school in Bellevue. I make web apps and AI tools.
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Endokelp/Only-Skill-You-Need">
+        <img src="logos/onlyskill.png" width="48" height="48" alt="" /><br/>
+        <b>Only Skill You Need</b>
+      </a>
+      <br/>
+      First skill a beginner installs. Routes the rest.
+    </td>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Endokelp/Should-I-build">
+        <img src="logos/shouldibuild.svg" width="48" height="48" alt="" /><br/>
+        <b>Should I Build?</b>
+      </a>
+      <br/>
+      BUILD / PIVOT / STOP with receipts
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Endokelp/DecisionCouncil">
+        <img src="logos/decisioncouncil.svg" width="48" height="48" alt="" /><br/>
+        <b>DecisionCouncil</b>
+      </a>
+      <br/>
+      Ranked verdict when the decision is expensive
+    </td>
+    <td align="center" valign="top" width="50%">
       <img src="logos/jarvis.png" width="48" height="48" alt="" /><br/>
       <b>JARVIS</b>
       <br/>
