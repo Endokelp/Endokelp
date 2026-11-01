@@ -4,19 +4,9 @@
 
 **Anirudh Devireddy** &nbsp;·&nbsp; high school senior in Bellevue, WA
 
-I put AI inside real systems: drinking-water rules, bird-safe glass, teen labor law, drone detection, classrooms. Most of it is public, with the numbers next to the code.
-
 [endokelp.com](https://endokelp.com) &nbsp;·&nbsp; [endoblog.dev](https://endoblog.dev) &nbsp;·&nbsp; [venni.devireddy@gmail.com](mailto:venni.devireddy@gmail.com)
 
 </div>
-
-## One habit, applied to different domains
-
-<div align="center">
-<img src="assets/method-map.svg" width="888" alt="Map of eight projects around a center labeled systems thinking plus AI. Research: TTHM warning rules for drinking water, Hypnos for circadian health, and a partner rotation study on multi-agent AI. Builds: Off the Clock for teen labor law, Gap check for bird-safe glass, Listening Post for drone detection, Vaidra for learning access, and Endoplexity for browser automation." />
-</div>
-
-Map the system, find the step where a model changes the outcome, then test it on data the model never saw.
 
 ## Research
 

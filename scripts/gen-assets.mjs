@@ -1,5 +1,4 @@
-// Regenerates assets/hero.svg and assets/method-map.svg: `node scripts/gen-assets.mjs`
-// To add a project to the map, append a row to RES or BLD (and the right column sets the height, so keep it at 5 rows or adjust TOP/STEP).
+// Regenerates assets/hero.svg: `node scripts/gen-assets.mjs`
 import { writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
@@ -67,79 +66,6 @@ writeFileSync(
 <g fill="#4c1d95" opacity=".28">${shadow}</g>
 <g>${base}</g>
 <g class="shine">${shine}</g>
-</svg>
-`
-);
-
-// ---------- method map ----------
-const RES = [
-  ["#5fb3ff", "DRINKING WATER", "TTHM warning rules", "Seasonal alerts vs the EPA rule"],
-  ["#2dd4bf", "CIRCADIAN HEALTH", "Hypnos", "RL model of the body clock"],
-  ["#f472b6", "MULTI-AGENT AI", "Partner rotation study", "Pre-registered, inconclusive"],
-];
-const BLD = [
-  ["#6fe3a0", "TEEN LABOR LAW", "Off the Clock", "Shift to statute to dollars"],
-  ["#f4d03f", "BIRD-SAFE GLASS", "Gap check", "Phone photo to millimetre map"],
-  ["#ff7b72", "DRONE DETECTION", "Listening Post", "Acoustic alert in a phone"],
-  ["#ffa94d", "LEARNING ACCESS", "Vaidra", "Free multilingual courses"],
-  ["#818cf8", "BROWSER AUTOMATION", "Endoplexity", "Agents on your own login"],
-];
-
-const MW = 888, NW = 244, NH = 70, TOP = 50, STEP = 82;
-const MH = TOP + 4 * STEP + NH + 26;
-const LX = 28, RX = MW - 28 - NW;
-const rightYs = BLD.map((_, i) => TOP + i * STEP);
-const lastY = rightYs[4];
-const leftYs = RES.map((_, i) => Math.round(TOP + (i * (lastY - TOP)) / (RES.length - 1)));
-const hubY = Math.round((TOP + NH / 2 + lastY + NH / 2) / 2), hubX = MW / 2;
-
-const nodes = [
-  ...RES.map((n, i) => ({ n, x: LX, y: leftYs[i], left: true })),
-  ...BLD.map((n, i) => ({ n, x: RX, y: rightYs[i], left: false })),
-];
-
-let lines = "", pulses = "", boxes = "";
-nodes.forEach(({ n: [color, dom, name, ev], x, y, left }, i) => {
-  const yc = y + NH / 2;
-  const ex = left ? x + NW : x;
-  const d = left
-    ? `M${hubX},${hubY} C${hubX - 72},${hubY} ${ex + 78},${yc} ${ex},${yc}`
-    : `M${hubX},${hubY} C${hubX + 72},${hubY} ${ex - 78},${yc} ${ex},${yc}`;
-  lines += `<path class="ln" d="${d}" stroke="${color}" stroke-opacity=".5"/>`;
-  pulses += `<g class="pl" fill="${color}" opacity="0"><circle r="7" opacity=".25"/><circle r="3.2"/>` +
-    `<animateMotion dur="3.4s" begin="${(i * 0.38).toFixed(2)}s" repeatCount="indefinite" path="${d}" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/>` +
-    `<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="3.4s" begin="${(i * 0.38).toFixed(2)}s" repeatCount="indefinite"/></g>`;
-  boxes += `<rect x="${x}" y="${y}" width="${NW}" height="${NH}" rx="12" fill="#15122f" stroke="${color}" stroke-opacity=".5"/>` +
-    `<rect x="${x + 1}" y="${y + 14}" width="3.5" height="${NH - 28}" rx="1.75" fill="${color}"/>` +
-    `<text x="${x + 20}" y="${y + 22}" class="d" fill="${color}">${dom}</text>` +
-    `<text x="${x + 20}" y="${y + 43}" class="n">${name}</text>` +
-    `<text x="${x + 20}" y="${y + 60}" class="e">${ev}</text>`;
-});
-
-writeFileSync(
-  `${OUT}/method-map.svg`,
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${MW} ${MH}" width="${MW}" height="${MH}" role="img" aria-labelledby="t">
-<title id="t">One method applied to eight projects</title>
-<style>
-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.h{font-size:11px;font-weight:600;letter-spacing:1.6px;fill:#9a96c8}
-.d{font-size:10.5px;font-weight:600;letter-spacing:1.3px}
-.n{font-size:17px;font-weight:700;fill:#f4f2ff}
-.e{font-size:12px;fill:#b4b0d8}
-.ln{fill:none;stroke-width:1.5;stroke-dasharray:2 7;stroke-linecap:round;animation:flow 1.2s linear infinite}
-@keyframes flow{to{stroke-dashoffset:-18}}
-@media (prefers-reduced-motion:reduce){.ln{animation:none}.pl{display:none}}
-</style>
-<rect x=".5" y=".5" width="${MW - 1}" height="${MH - 1}" rx="18" fill="#0c0a1d" stroke="#2b2657"/>
-<text x="${LX}" y="32" class="h">RESEARCH</text>
-<text x="${MW - LX}" y="32" class="h" text-anchor="end">BUILDS</text>
-${lines}
-${pulses}
-<circle cx="${hubX}" cy="${hubY}" r="66" fill="#1b1647" stroke="#8b5cf6" stroke-width="2"/>
-<text x="${hubX}" y="${hubY - 16}" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="1.6" fill="#a78bfa">ONE METHOD</text>
-<text x="${hubX}" y="${hubY + 6}" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">Systems</text>
-<text x="${hubX}" y="${hubY + 26}" text-anchor="middle" font-size="13" fill="#cfcaf7">thinking + AI</text>
-${boxes}
 </svg>
 `
 );
